@@ -1,0 +1,14 @@
+{
+  "name": "smart-daily-report",
+  "version": "0.1.0",
+  "private": true,
+  "description": "智能日报（SDD 实践）—— OpenSpec 规范驱动开发环境",
+  "scripts": {
+    "os:list": "openspec list",
+    "os:validate": "openspec validate --all",
+    "os:doctor": "openspec doctor"
+  },
+  "devDependencies": {
+    "@fission-ai/openspec": "^1.16.0"
+  }
+}
